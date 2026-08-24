@@ -6,27 +6,7 @@ A SQL Server data warehouse project that integrates **CRM and ERP data** and tra
 
 This project follows a **Medallion Architecture (Bronze → Silver → Gold)**:
 
-```text
-CRM & ERP CSV Files
-        │
-        ▼
-   ┌──────────┐
-   │  Bronze  │  Raw data ingestion
-   └────┬─────┘
-        │
-        ▼
-   ┌──────────┐
-   │  Silver  │  Cleaning & transformation
-   └────┬─────┘
-        │
-        ▼
-   ┌──────────┐
-   │   Gold   │  Business-ready data
-   └────┬─────┘
-        │
-        ▼
-   Analytics / Reporting
-```
+<img width="1028" height="341" alt="image" src="https://github.com/user-attachments/assets/386804e4-e55f-453c-b06c-d6dc01e8c8ec" />
 
 ### Bronze Layer
 
